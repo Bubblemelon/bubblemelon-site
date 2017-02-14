@@ -2,8 +2,8 @@
 My personal website.
 
 ### Note to Self 
-
-tools:
+ 
+Tools:
 
 (1) W3C HTML Validator
 
@@ -12,7 +12,9 @@ tools:
 (3) W3C Link Checker
 
 
+
 Things to remember:
+
 
 * Website site should always comply with xml, so make sure to always close elements e.g. ` <br/> or <li></li> `
 	
