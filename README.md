@@ -4,7 +4,7 @@ My personal website.
 ### Note to Self
 
 
-Tools:
+**Tools:**
 
 (1) W3C HTML Validator
 
@@ -14,7 +14,7 @@ Tools:
 
 
 
-Things to remember:
+**Things to remember:**
 
 
 (4) Website site should always comply with xml, so make sure to always close elements e.g. ` <br/> or <li></li> `
