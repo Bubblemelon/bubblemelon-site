@@ -1,7 +1,9 @@
 # bubblemelon-site
 My personal website.
 
-### Note to Self: 
+### Note to Self 
+
+tools:
 
 (1) W3C HTML Validator
 
@@ -10,16 +12,18 @@ My personal website.
 (3) W3C Link Checker
 
 
-* Website site should always comply with xml, so make sure to always close elements e.g. ` <br/> or <li></li> `
+Things to remember:
 
-* File names should not contain spaces
-
-* CSS selectors in combination should not have spaces in between when being very specific/selective. 
-
-* When used with spaces e.g. `.container .blue {}` means class blue in class container. 
+	* Website site should always comply with xml, so make sure to always close elements e.g. ` <br/> or <li></li> `
 	
-* Use " , " to separate css selectors when applying to properties sperately.
+	* File names should not contain spaces
 
-* Use photoshop to condense pictures.
+	* CSS selectors in combination should not have spaces in between when being very specific/selective. 
 
-* Make sure all directory links are correct, W3C link checker cannot detect. 
+	* When used with spaces e.g. `.container .blue {}` means class blue in class container. 
+	
+	* Use " , " to separate css selectors when applying to properties sperately.
+
+	* Use photoshop to condense pictures.
+	
+	* Make sure all directory links are correct, W3C link checker cannot detect. 
