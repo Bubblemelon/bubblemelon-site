@@ -1,7 +1,8 @@
 # bubblemelon-site
 My personal website.
 
-### Note to Self
+Note to Self
+------
 
 
 **Tools:**
