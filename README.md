@@ -1,8 +1,9 @@
 # bubblemelon-site
 My personal website.
 
-### Note to Self 
- 
+### Note to Self
+
+
 Tools:
 
 (1) W3C HTML Validator
