@@ -17,16 +17,16 @@ Tools:
 Things to remember:
 
 
-* Website site should always comply with xml, so make sure to always close elements e.g. ` <br/> or <li></li> `
+(4) Website site should always comply with xml, so make sure to always close elements e.g. ` <br/> or <li></li> `
 	
-* File names should not contain spaces
+(5) File names should not contain spaces
 
-* CSS selectors in combination should not have spaces in between when being very specific/selective. 
+(6) CSS selectors in combination should not have spaces in between when being very specific/selective. 
 
-* When used with spaces e.g. `.container .blue {}` means class blue in class container. 
+(7) When used with spaces e.g. `.container .blue {}` means class blue in class container. 
 	
-* Use " , " to separate css selectors when applying to properties sperately.
+(8) Use " , " to separate css selectors when applying to properties sperately.
 
-* Use photoshop to condense pictures.
+(9) Use photoshop to condense pictures.
 	
-* Make sure all directory links are correct, W3C link checker cannot detect. 
+(10) Make sure all directory links are correct, which the W3C link checker can't detect. 
