@@ -1,0 +1,301 @@
+<!DOCTYPE html>    <!-- BLLLOGGGGG -->
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>     <!-- For mobile optimization -->
+    <meta name="author" content="Cheryl Fong Yin Yin"/>
+    <meta name="keywords" content="Cheryl Fong, Cheryl Fong Yin Yin, Cheryl, bubblemelon, BubbleMelon"/>
+    <meta name="description" content="Cheryl Fong Yin Yin's Homepage"/>
+
+    <title>Cheryl Fong's Personal Blog</title>
+
+    <link rel="icon" type="image/ico" href="../images/favicon.ico"/>
+
+    <!-- Advantage to using Bootstrap CDN:
+    Many users already have downloaded Bootstrap from MaxCDN when visiting another site.
+    As a result, it will be loaded from cache when they visit your site,
+    which leads to faster loading time.
+    Also, most CDN's will make sure that once a user requests a file from it,
+    it will be served from the server closest to them,
+    which also leads to faster loading time.
+    source: http://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+
+    <!--The following remote stylesheet & javascript links are obtained from http://getbootstrap.com/getting-started/ -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/>
+
+    <!--Cheryl's Stylesheet: lowest to highest precedence from top to bottom. Last defined stylesheet will override the stylesheets above-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" media="screen" title="no title"/> <!-- highest precedence -->
+
+    <!-- JavaScript References = async loads scripts asynchronously-->
+
+    <!-- Bakcground Animation JS -->
+    <script src="https://gist.githubusercontent.com/Bubblemelon/5af9671c36fd554a79f193473e913a1d/raw/85f7e74a3ef5aa9dad1acee9a043d9a5495017a6/waves.js"></script>
+
+    <!-- Font Awesome CDN -->
+    <script type="text/javascript" src="https://use.fontawesome.com/b1e061968c.js" async></script>
+
+    <!-- JQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" async></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
+  </head>
+
+  <body class="blogpage">
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top"> <!-- Nav bar is fixed on the top -->
+
+      <div class="container-fluid"><!-- Brand and toggle get grouped for better mobile display -->
+
+        <div class="navbar-header">
+
+          <a  href="../"><img id="brand-image" alt="Brand Image" src="../images/circle.gif" height="45" width="45"/></a>
+
+         <!-- This "toggle navigation" is used when in mobile Mode -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div> <!-- closing navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+
+
+
+            <li><a href="../about/about.html">about<span class="sr-only"></span></a></li> <!-- Removed class="active" in <li> -->
+            <li><a href="../document/resume.html">resume</a></li>
+
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">projects<span class="caret"></span></a>
+
+              <ul class="dropdown-menu">
+                <li><a href="../projects/art/art.html">art</a></li>
+                <li><a href="../projects/papers/papers.html">papers</a></li>
+                <!-- <li role="separator" class="divider"></li> -->
+                <!-- <li><a href="#">Separated link</a></li> -->
+              </ul>
+
+            </li> <!-- closing for <li class="dropdown"> -->
+
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="../schedule/schedule.html">schedule</a></li>
+            <li><a href="../contact/contact.html">contact</a></li>
+
+          </ul>  <!-- closing for <ul class="nav navbar-nav"> -->
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+
+    </nav> <!-- closing entire nav bar -->
+
+<!-- ********************** START CONTENT   ******************************** -->
+
+    <!-- ******** Page Header ************ -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="site-heading">
+                  <h1 class="heavy">Blog</h1>
+                  <span class="subheading">P.S. from Cheryl's Brain.</span>
+                  <hr/>
+              </div>
+          </div>
+      </div>
+    </div>
+    </header>
+
+<!-- *********** MODALS **************************************************** -->
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">
+          My brief visit at the <a href="https://www.ias.edu">Insitute for Advance Study</a></h4>
+          <h5 class="modal-title" >
+            13th of November 2016</h5>
+        <!-- Modal title above -->
+      </div>
+      <div class="modal-body">
+
+        <div class="row">
+          <div class="col-md-2 col-sm-1"></div>
+          <div class="col-md-8 col-sx-12 col-sm-10">
+
+            <p>
+              On that bright early morning, I set out to visit the Institute as part
+              of my weekend experience at HackPrinceton. It was also my first time at Princeton
+              and New Jersey all together, I didn't want to miss this opportunity.
+            </p>
+            <p>
+              On my way into the facility, I approached a well decorated lobby
+              <br/> <!--width="50" height="50"-->
+              <img class="modal1" src="../images/photos/IASLobby.jpg" alt="IAS Lobby" />
+              <br/>
+              that overlooked the lake and it's vast green field.
+            </p>
+            <p>
+              I explored the inside of the building further and stumbled upon the
+              private library. I was up on the second level and found that this was indeed a better angle for a photo,
+              this happens to be the right side
+            <br/>
+            <img class="modal1" src="../images/photos/IASLibraryRight.jpg" alt="IAS Library Right" />
+            <br/>
+            and this on the left.
+            <br/>
+            <img class="modal1" src="../images/photos/IASLibraryLeft.jpg" alt="IAS Library Left" />
+            <br/>
+            </p>
+            <p>
+              The Institute felt incredibly serious even with hardly anyone around and with nothing going on.
+              Thankfully this facility is surrounded by a scenic landscape,
+              <br/>
+              <img class="modal1" src="../images/photos/Outdoors1.jpg" alt="Lush Green Field IAS" />
+              <br/>
+              that I personally feel would help aid in deep contemplation and provide a nice breather from work .
+              <br/>
+              <img class="modal1" src="../images/photos/Outdoors2.jpg" alt="A Walkway lined with trees"/>
+              <br/>
+
+            </p>
+            <p>
+              After much strolling around, I decided to hop on to the next thing on my agenda.
+              I very much enjoyed myself and visiting the Insitute that day was a unique experience.
+              I do hope to attend their seminars one day. <br/>
+              <img class="modal1" src="../images/photos/Outdoors4.jpg" alt="The IAS building"/><br/>
+
+            </p>
+
+
+
+
+
+
+          </div>
+          <div class="col-md-2 col-sm-1"></div>
+        </div>
+
+
+
+      </div>           <!--       <div class="modal-body">  -->
+      <div class="modal-footer">
+
+        <p id="share" > Share Buttons go here. </p>
+
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ********** Main Content (((((( For Blog Post Reviews )))))) ************-->
+
+    <div id="blogroll" class="container">
+    <div class="row">
+      <div  class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+          <div class="post-preview">
+
+              <div data-toggle="modal" data-target=".bs-example-modal-lg" id="myLargeModalLabel" >
+
+                    <a>
+                    <h2 class="post-title">
+                          My brief visit at the Insitute for Advance Study
+                    </h2>
+                    <h3 class="post-subtitle">
+                        It was great start to my sunny Sunday morning.
+                    </h3>
+                    </a>
+
+              </div> <!-- <div data-toggle="modal" data-target=".bs-example-modal-lg"> -->
+
+              <p class="post-meta">Posted by <a href="#">Cheryl Fong</a> on November 13, 2016</p>
+          </div>
+          <hr/>
+
+<!-- Second Preview -->
+          <!--
+          <div class="post-preview">
+              <a href="post.html">
+                  <h2 class="post-title">
+                      Science has not yet mastered prophecy
+                  </h2>
+                  <h3 class="post-subtitle">
+                      We predict too much for the next year and yet far too little for the next ten.
+                  </h3>
+              </a>
+              <p class="post-meta">Posted by <a href="#">Cheryl Fong</a> on August 24, 2014</p>
+          </div>
+          <hr/> -->
+
+
+<!-- ******************** Pager ******************************************** -->
+
+          <ul class="pager">
+              <li class="next">
+                  <a href="#">Older Posts &rarr;</a>
+              </li>
+          </ul>
+            <br/><br/>
+            <br/><br/>
+            <br/><br/>
+            <br/><br/>
+
+      </div> <!-- <div  class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> -->
+
+    </div><!-- closing for   <div class="row"> -->
+  </div> <!-- closing for   <div id="blogroll" class="container"> -->
+
+
+
+<!-- **********************  END CONTENT  ********************************** -->
+
+    <footer  class="navbar-fixed-bottom">
+      <div class="container-fluid">
+
+<!-- Note
+    md = medium devices
+    sm = tablet
+    xs = extra small devices
+    number of columns = 12
+    source = http://getbootstrap.com/css/#grid
+    -->
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-8">
+            <div id="social-media" >
+              <a href="https://facebook.com/bubblemelon"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/ecstatic_c"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              <a href="https://github.com/bubblemelon"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+              <a href="https://linkedin.com/in/cherylfongyinyin"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-4"></div>
+        </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-md-4"><p class="text-muted">Copyright &copy; 2016 Cheryl Fong Yin Yin All Rights Reserved.</p></div>
+        <div class="col-xs-12 col-sm-6 col-md-8"></div>
+      </div>
+
+      </div> <!-- closing for <div class="container-fluid"> -->
+    </footer>
+
+  </body>
+
+</html>
