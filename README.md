@@ -4,7 +4,7 @@ My personal website.
 Updates:
 ------
 
-Wave.js for index page only works on firefox.
+[]
 
 Note to Self
 ------
