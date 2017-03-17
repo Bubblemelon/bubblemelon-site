@@ -124,10 +124,23 @@ color: #e4004f ;   /*pink*/
 
 /* INDEX Page*/
 
-body.indexpage{
+.col-lx-auto #canvas {
+	background:
+		-webkit-linear-gradient(45deg, hsla(168, 97%, 45%, 1) 0%, hsla(168, 97%, 45%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(325, 91%, 49%, 1) 10%, hsla(325, 91%, 49%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(179, 98%, 48%, 1) 10%, hsla(179, 98%, 48%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(354, 98%, 41%, 1) 100%, hsla(354, 98%, 41%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(168, 97%, 45%, 1) 0%, hsla(168, 97%, 45%, 0) 70%),
+		linear-gradient(135deg, hsla(325, 91%, 49%, 1) 10%, hsla(325, 91%, 49%, 0) 80%),
+		linear-gradient(225deg, hsla(179, 98%, 48%, 1) 10%, hsla(179, 98%, 48%, 0) 80%),
+		linear-gradient(315deg, hsla(354, 98%, 41%, 1) 100%, hsla(354, 98%, 41%, 0) 70%);
+	}
 
-  background-color: #000000;
-}
+
+
+//source: http://www.webcore-it.com/colorful-background/
+//source: http://www.w3schools.com/css/css3_gradients.asp
 
 /* INDEX PAGE ABOVE*/
 
