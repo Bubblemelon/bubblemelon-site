@@ -82,7 +82,7 @@ body{
 }
 
 canvas{
-
+  
   width: 100%;
   height: auto;
 
@@ -126,9 +126,9 @@ color: #e4004f ;   /*pink*/
 
 /* INDEX Page*/
 
-.col-lx-auto #canvas {
+.indexpage{
 
-  z-index: -1 !important;
+  /* z-index: -1 !important; */
   /*The higher the z-index, the higher the priority*/
 
 	background:
@@ -145,8 +145,8 @@ color: #e4004f ;   /*pink*/
 
 
 
-//source: http://www.webcore-it.com/colorful-background/
-//source: http://www.w3schools.com/css/css3_gradients.asp
+/* source: http://www.webcore-it.com/colorful-background/
+ source: http://www.w3schools.com/css/css3_gradients.asp */
 
 /* INDEX PAGE ABOVE*/
 
