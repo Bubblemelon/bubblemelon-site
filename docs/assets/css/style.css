@@ -82,27 +82,31 @@ body{
 }
 
 canvas{
-  
+
   width: 100%;
   height: auto;
 
 }
 
-#name{
-  color: #ffffff;
-  font-size: 50px;
-  position: absolute;
-  padding: 10rem 8rem;
-  text-align: center !important;
+@media only screen and (min-width: 500px)
+{
+  #name{
+    color: #ffffff;
+    font-size: 50px;
+    position: absolute;
+    padding: 10rem 8rem;
+    text-align: center !important;
+  }
+
+  #tagline{
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    padding: 18rem 8rem 5rem 20rem;
+    text-align: center !important;
+  }
 }
 
-#tagline{
-  color: #ffffff;
-  font-size: 20px;
-  position: absolute;
-  padding: 18rem 8rem 5rem 20rem;
-  text-align: center !important;
-}
 
 a:link{
 color: #e4004f ;   /*pink*/
