@@ -81,9 +81,11 @@ body{
   /*family name, generic family*/
 }
 
-#canvas{
-  z-index: -1 !important;
-  /*The higher the z-index, the higher the priority*/
+canvas{
+
+  width: 100%;
+  height: auto;
+
 }
 
 #name{
@@ -125,6 +127,10 @@ color: #e4004f ;   /*pink*/
 /* INDEX Page*/
 
 .col-lx-auto #canvas {
+
+  z-index: -1 !important;
+  /*The higher the z-index, the higher the priority*/
+
 	background:
 		-webkit-linear-gradient(45deg, hsla(168, 97%, 45%, 1) 0%, hsla(168, 97%, 45%, 0) 70%),
 		-webkit-linear-gradient(315deg, hsla(325, 91%, 49%, 1) 10%, hsla(325, 91%, 49%, 0) 80%),
