@@ -88,6 +88,7 @@ canvas{
 
 }
 
+
 @media only screen and (min-width: 500px)
 {
   #name{
@@ -105,6 +106,19 @@ canvas{
     padding: 18rem 8rem 5rem 20rem;
     text-align: center !important;
   }
+}
+
+
+#name{
+  color: #ffffff;
+  font-size: 25px;
+
+}
+
+#tagline{
+  color: #ffffff;
+  font-size: 10px;
+
 }
 
 
@@ -215,7 +229,7 @@ body.aboutpage{
 
 
 body.blogpage{
-  background-image: url(../../images/flower.png) ;
+  background-image: ;
 }
 
 .intro-header{
