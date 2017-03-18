@@ -89,6 +89,19 @@ canvas{
 }
 
 
+
+#name{
+  color: #ffffff;
+  font-size: 25px;
+
+}
+
+#tagline{
+  color: #ffffff;
+  font-size: 10px;
+
+}
+
 @media only screen and (min-width: 500px)
 {
   #name{
@@ -108,18 +121,6 @@ canvas{
   }
 }
 
-
-#name{
-  color: #ffffff;
-  font-size: 25px;
-
-}
-
-#tagline{
-  color: #ffffff;
-  font-size: 10px;
-
-}
 
 
 a:link{
