@@ -1,0 +1,4 @@
+url: https://bubblemelon.com   # with the https protocol
+enforce_ssl: bubblemelon.com   # without any protocol
+
+# refernce: https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/s
