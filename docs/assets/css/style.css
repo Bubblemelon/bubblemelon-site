@@ -98,7 +98,7 @@ canvas{
 
 @media only screen and (min-width: 500px)
 {
-  #name{
+  h1#name{
     color: #ffffff;
     font-size: 50px;
     position: absolute;
@@ -106,7 +106,7 @@ canvas{
     text-align: center !important;
   }
 
-  #tagline{
+  p#tagline{
     color: #ffffff;
     font-size: 20px;
     position: absolute;
