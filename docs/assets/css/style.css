@@ -136,11 +136,13 @@ color: #e4004f ;   /*pink*/
   /*The higher the z-index, the higher the priority*/
 
   background: linear-gradient(270deg, #7b2a99, #00907e, #e13989);
-background-size: 600% 600%;
+  background-size: 600% 600%;
 
--webkit-animation: AnimationName 21s ease infinite;
--moz-animation: AnimationName 21s ease infinite;
-animation: AnimationName 21s ease infinite;
+  -webkit-animation: AnimationName 21s ease infinite;
+  -moz-animation: AnimationName 21s ease infinite;
+  animation: AnimationName 21s ease infinite;
+}
+
 
 @-webkit-keyframes AnimationName {
    0%{background-position:0% 50%}
@@ -157,7 +159,6 @@ animation: AnimationName 21s ease infinite;
    50%{background-position:100% 50%}
    100%{background-position:0% 50%}
 }
-	}
 
 
 
