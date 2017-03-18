@@ -89,17 +89,19 @@ canvas{
 }
 
 
+@media only screen and (max-width: 400px)
+{
+  #name{
+    color: #ffffff;
+    font-size: 25px;
 
-#name{
-  color: #ffffff;
-  font-size: 25px;
+  }
 
-}
+  #tagline{
+    color: #ffffff;
+    font-size: 10px;
 
-#tagline{
-  color: #ffffff;
-  font-size: 10px;
-
+  }
 }
 
 @media only screen and (min-width: 500px)
