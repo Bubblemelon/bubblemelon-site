@@ -135,16 +135,28 @@ color: #e4004f ;   /*pink*/
   /* z-index: -1 !important; */
   /*The higher the z-index, the higher the priority*/
 
-	background:
-		-webkit-linear-gradient(45deg, hsla(168, 97%, 45%, 1) 0%, hsla(168, 97%, 45%, 0) 70%),
-		-webkit-linear-gradient(315deg, hsla(325, 91%, 49%, 1) 10%, hsla(325, 91%, 49%, 0) 80%),
-		-webkit-linear-gradient(225deg, hsla(179, 98%, 48%, 1) 10%, hsla(179, 98%, 48%, 0) 80%),
-		-webkit-linear-gradient(135deg, hsla(354, 98%, 41%, 1) 100%, hsla(354, 98%, 41%, 0) 70%);
-	background:
-		linear-gradient(45deg, hsla(168, 97%, 45%, 1) 0%, hsla(168, 97%, 45%, 0) 70%),
-		linear-gradient(135deg, hsla(325, 91%, 49%, 1) 10%, hsla(325, 91%, 49%, 0) 80%),
-		linear-gradient(225deg, hsla(179, 98%, 48%, 1) 10%, hsla(179, 98%, 48%, 0) 80%),
-		linear-gradient(315deg, hsla(354, 98%, 41%, 1) 100%, hsla(354, 98%, 41%, 0) 70%);
+  background: linear-gradient(270deg, #7b2a99, #00907e, #e13989);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 21s ease infinite;
+-moz-animation: AnimationName 21s ease infinite;
+animation: AnimationName 21s ease infinite;
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
 	}
 
 
