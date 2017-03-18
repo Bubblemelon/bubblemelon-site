@@ -3,8 +3,7 @@ My personal website.
 
 Updates:
 ------
-
-[]
+Contains dummy forms on resume.html and contact.html ( i.e. submission button does not send messages )
 
 Note to Self
 ------
