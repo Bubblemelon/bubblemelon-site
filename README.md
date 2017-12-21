@@ -1,10 +1,19 @@
 # bubblemelon-site
 My personal website.
 
-Updates:
+Future Updates:
 ------
 
+1. Mobile first ( To ensure proper rendering and touch zooming, add the viewport meta tag to `<head>` element. )
+`<meta name="viewport" content="width=device-width, initial-scale=1">`
+Needs to be done on all pages. 
+
+2. Find a way to have the all code between the `<head></head>` element to place one file. Instead on all the pages...
+
+3. Dropdown button does not work on Firefox Focus Mobile.
+
 []
+
 
 Note to Self
 ------
@@ -37,14 +46,3 @@ Note to Self
 	
 (10) Make sure all directory links are correct, which the W3C link checker can't detect. 
 
-
-To Do List
-------
-
-1. Mobile first ( To ensure proper rendering and touch zooming, add the viewport meta tag to `<head>` element. )
-`<meta name="viewport" content="width=device-width, initial-scale=1">`
-Needs to be done on all pages. 
-
-2. Find a way to have the all code between the `<head></head>` element to place one file. Instead on all the pages...
-
-3. Dropdown button does not work on Firefox Focus Mobile.
