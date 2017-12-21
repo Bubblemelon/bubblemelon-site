@@ -38,7 +38,8 @@ Note to Self
 (10) Make sure all directory links are correct, which the W3C link checker can't detect. 
 
 
-**To Do List**
+To Do List
+------
 
 1. Mobile first ( To ensure proper rendering and touch zooming, add the viewport meta tag to `<head>` element. )
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
