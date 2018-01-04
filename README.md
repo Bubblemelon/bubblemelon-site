@@ -46,3 +46,8 @@ Note to Self
 	
 (10) Make sure all directory links are correct, which the W3C link checker can't detect. 
 
+
+**Useful Links:**
+
+[CSS Selectors](https://learn.co/tracks/bootcamp-prep/html-fundamentals/css/css-selectors)
+
