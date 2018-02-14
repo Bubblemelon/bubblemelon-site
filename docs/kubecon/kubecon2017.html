@@ -51,8 +51,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
 
 
-    <!-- Adobe Spark JS Script -- ONLY FOR THIS PAGE -- Reduce load time for each link instead of having 3 -->
+    <!-- Adobe Spark JS Script - ONLY FOR THIS PAGE - Reduce load time for each link instead of having 3 -->
     <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js" async></script>
+
+    <!-- To remove the attributes that come with the above script - ONLY FOR THIS PAGE -->
+    <script src="../assets/js/adobe-spark-css-edit.js" async></script>
+
 
     <!-- Makes this site highest priority when there other links to the same content -->
     <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
@@ -121,7 +125,7 @@
 
       </div>
 
-      <div class="row ">
+      <div class="row " id="aspark">
 
           <!-- Day 0 -->
           <div class="col-md">
