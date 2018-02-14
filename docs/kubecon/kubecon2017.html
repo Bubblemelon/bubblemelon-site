@@ -26,7 +26,7 @@
     source: http://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
 
     <!-- JQuery Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!--The following remote stylesheet & javascript links are obtained from http://getbootstrap.com/getting-started/ -->
 
@@ -48,20 +48,20 @@
     <script type="text/javascript" src="https://use.fontawesome.com/b1e061968c.js" async></script>
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
-
-
-    <!-- Adobe Spark JS Script - ONLY FOR THIS PAGE - Reduce load time for each link instead of having 3 -->
-    <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js" async></script>
-
-    <!-- To remove the attributes that come with the above script - ONLY FOR THIS PAGE -->
-    <script src="../assets/js/adobe-spark-css-edit.js" async></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
 
     <!-- Makes this site highest priority when there other links to the same content -->
     <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
+    <!-- ONLY FOR THIS PAGE -->
 
+        <!-- Adobe Spark JS Script - ONLY FOR THIS PAGE - Reduce load time for each link instead of having 3 -->
+        <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js" async></script>
+
+        <!-- To remove the attributes that come with the above script - ONLY FOR THIS PAGE -->
+        <script src="../assets/js/adobe-spark-css-edit.js" defer></script>
+
+    <!-- ONLY FOR THIS PAGE -->
 
   </head>
 
