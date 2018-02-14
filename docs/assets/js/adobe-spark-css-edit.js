@@ -4,7 +4,8 @@
 $(document).ready( function() {
 
 var v = $("#aspark").find("div");
-v.removeAttr();
+v.removeAttr("style");
+alert(v.text() + "done" );
 
 });
 
