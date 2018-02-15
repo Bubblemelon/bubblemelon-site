@@ -3,7 +3,7 @@
 // Prevents JQuery code from running before the document is finished loading:
 $(document).ready( function() {
 
-var v = $("#aspark").find("div");
+var v = $("#aspark").find("*");
 v.removeAttr("style");
 alert(v.text() + "done" );
 
