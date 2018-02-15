@@ -12,6 +12,8 @@ Needs to be done on all pages.
 
 3. Dropdown button does not work on Firefox Focus Mobile.
 
+4. Have the footer only show when user scrolls all the way to the bottom of the page on the mobile version
+
 []
 
 
