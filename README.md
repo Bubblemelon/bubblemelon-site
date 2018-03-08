@@ -56,3 +56,17 @@ Note to Self
 [CSS Selectors](https://learn.co/tracks/bootcamp-prep/html-fundamentals/css/css-selectors)
 
 [CSS Selector Game](http://flukeout.github.io/)
+
+
+### htaccess-config
+Removes url extension and sets file precedence when using an Apache Server e.g. when using a LAMP stack.
+
+For example:  
+`https:../blog/blog.html` becomes `https:../blog/blog.html`.
+
+**Some References:**
+
+https://httpd.apache.org/docs/current/howto/htaccess.html
+
+https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/
+
