@@ -54,8 +54,8 @@
     <!-- Makes this site highest priority when there other links to the same content -->
     <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
-    <!-- Dropdown menus hover over (NO ASYNC) -->
-    <script type="text/javascript" src="assets/js/menu-hover-over.js"></script>
+    <!-- Dropdown menus hover over -->
+    <script type="text/javascript" src="assets/js/menu-hover-over.js" async></script>
 
   </head>
 
@@ -101,7 +101,7 @@
             </li> <!-- closing for <li class="dropdown"> -->
 
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">blogs<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">blogs<span class="caret"></span></a>
 
               <ul class="dropdown-menu">
                 <li><a href="http://blog.bubblemelon.com">wordpress</a></li>
